@@ -6,7 +6,7 @@
 /*   By: mdahani <mdahani@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/20 20:09:20 by mait-all          #+#    #+#             */
-/*   Updated: 2025/09/13 15:23:47 by mdahani          ###   ########.fr       */
+/*   Updated: 2025/09/16 16:34:28 by mdahani          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -147,10 +147,11 @@ void			*ft_malloc(size_t size, int mode);
 double			normalize_x_axis(double x, double ray_angle);
 double			normalize_y_axis(double y, double ray_angle);
 double			normalize_angle(double angle);
-double			get_distance_between_points(double x0, double y0, double x1,
-					double y1);
+double			get_distance_between_points(double x0, double y0,
+					double x1, double y1);
 void			set_rays_to_walls_distance(t_mlx_data *mlx, int i,
-					double horz_hit_distance, double vert_hit_distance);
+					double horz_hit_distance,
+					double vert_hit_distance);
 t_texture		*get_wall_texture(t_mlx_data *mlx, int x);
 int				get_texture_pixel(t_mlx_data *mlx, int x, int y);
 
