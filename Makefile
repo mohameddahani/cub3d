@@ -1,5 +1,5 @@
-NAME = cub3d
-NAMEB = cub3d_bonus
+NAME = cub3D
+NAMEB = cub3D_bonus
 
 SRCS = srcs/mandatory/main.c \
 		srcs/mandatory/raycasting/init.c \
